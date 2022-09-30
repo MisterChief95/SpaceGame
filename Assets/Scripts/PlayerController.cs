@@ -44,6 +44,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody.MovePosition(_rigidbody.position + (movement * (Time.fixedDeltaTime * _speed)));
+        _rigidbody.MovePosition(_rigidbody.position + movement * (Time.fixedDeltaTime * _speed));
     }
 }

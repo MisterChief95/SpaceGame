@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="height: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; min-width: auto; min-height: auto;">
+        <ui:Button tabindex="-1" text="Toggle Door" display-tooltip-when-elided="true" />
+        <ui:Toggle label="Lock" value="false" />
+    </ui:VisualElement>
+</ui:UXML>
