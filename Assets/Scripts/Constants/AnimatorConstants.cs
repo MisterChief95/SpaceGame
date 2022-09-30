@@ -2,6 +2,6 @@
 {
     public static class AnimatorConstants
     {
-        public static string HasOccupant = "hasOccupant";
+        public const string IsOpen = "isOpen";
     }
 }
